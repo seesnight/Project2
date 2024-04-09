@@ -1,38 +1,96 @@
+div {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.black-nav {
   display: flex;
-  flex-direction: column;
+  background: black;
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+}
+
+.leftcontainer {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  width: 60%;
 }
 
-.App-link {
-  color: #61dafb;
+.list {
+  width: 200px;
+  height: 130px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px grey;
+  border-radius: 10px;
+  margin: 30px;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list h4 {
+  cursor: pointer;
+}
+
+.list span {
+  cursor: pointer;
+  margin-left: 7px;
+}
+
+.rightcontainer {
+  width: 40%;
+  padding-top: 50px;
+}
+
+.inputbox {
+  display: flex;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.title-inputbutton {
+  height: 35px;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.title-input {
+  height: 30px;
+  border-radius: 5px;
+  font-size: 19px;
+  margin-right: 6px;
+}
+
+.title-del {
+  font-size: 15px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: left;
+  display: block;
+  background-color: azure;
+  width: 40%;
+  height: fit-content;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 3px solid;
 }
