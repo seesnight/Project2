@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/seesnight/Project2.git/static/css/main.c3afbf9e.css",
+    "main.js": "/seesnight/Project2.git/static/js/main.de29180d.js",
+    "static/js/453.3c3c57d0.chunk.js": "/seesnight/Project2.git/static/js/453.3c3c57d0.chunk.js",
+    "index.html": "/seesnight/Project2.git/index.html",
+    "main.c3afbf9e.css.map": "/seesnight/Project2.git/static/css/main.c3afbf9e.css.map",
+    "main.de29180d.js.map": "/seesnight/Project2.git/static/js/main.de29180d.js.map",
+    "453.3c3c57d0.chunk.js.map": "/seesnight/Project2.git/static/js/453.3c3c57d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3afbf9e.css",
+    "static/js/main.de29180d.js"
+  ]
+}
